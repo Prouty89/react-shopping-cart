@@ -3,7 +3,7 @@
 	background: white;
 	transition: 0.2s ease-in-out;
 	width: 333px;
-	margin: 30px;
+	margin: 1%;
 
 	&:hover {
 		box-shadow: 0px 5px 37px -22px rgba(0, 0, 0, 1);
@@ -24,7 +24,7 @@
 	}
 
 	img {
-		object-fit: contain;
+		object-fit: cover;
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
 		max-width: 333px;
@@ -46,4 +46,8 @@
 			color: white;
 		}
 	}
+}
+
+.product-condtainer{
+background: rgb(71, 70, 70);
 }
